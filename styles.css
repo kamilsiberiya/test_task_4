@@ -1,0 +1,22 @@
+div.Cells{
+  height:40px;
+  width:40px;
+  border: 1px double black;
+}
+.Palce{
+  display: flex;
+  flex-wrap: wrap;
+  width:600px;
+}
+.Palce__line:nth-child(2n+1)>.Cells:nth-child(2n+1){
+  background: #29313d;
+}
+
+.Palce__line:nth-child(2n)>.Cells:nth-child(2n){
+  background: #29313d;
+}
+.Litteral{
+   height:40px;
+   width:40px;
+   border: 1px double black;
+}
